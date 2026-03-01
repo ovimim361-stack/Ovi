@@ -291,10 +291,10 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
  if (
  raw.startsWith("baby ") || raw.startsWith("bot ") || raw.startsWith("bby ") ||
  raw.startsWith("jan ") || raw.startsWith("ovi ") ||
- raw.startsWith("জান ") || raw.startsWith("বট ") || raw.startsWith("বেবি ")
+ raw.startsWith("জান ") || raw.startsWith("বট ") || raw.startsWith("অভি ")
  ) {
  const query = raw
- .replace(/^baby\s+|^bot\s+|^bby\s+|^jan\s+|^ovi\s+|^জান\s+|^বট\s+|^বেবি\s+/i, "")
+ .replace(/^baby\s+|^bot\s+|^bby\s+|^jan\s+|^ovi\s+|^জান\s+|^বট\s+|^অভি\s+/i, "")
  .trim();
  if (!query) return;
 
