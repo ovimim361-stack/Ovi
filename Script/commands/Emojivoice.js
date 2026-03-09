@@ -15,6 +15,7 @@ const path = require("path");
 
 const emojiAudioMap = {
  "🥱": "https://files.catbox.moe/9pou40.mp3",
+ "🐣": "https://files.catbox.moe/11k8bl.mp3",
  "💖": "https://files.catbox.moe/ezeydp.mp3",
  "😁": "https://files.catbox.moe/60cwcg.mp3",
  "😌": "https://files.catbox.moe/epqwbx.mp3",
